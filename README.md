@@ -8,10 +8,7 @@ DSH（DeepSeek Harness）Web / 桌面界面右下角的**滑动测量仪**小挂
 
 ## 截图 / 演示
 
-<!-- 收录审核用：装好后截图右下角「测」按钮 + 打开的测量仪面板，替换下面占位 -->
-![screenshot placeholder](https://raw.githubusercontent.com/yvhcel888/dsh-slide-gauge/main/docs/screenshot.png)
-
-> 若上方图片 404，说明演示截图尚未上传；功能本身已可用，不影响安装。
+![滑动测量仪界面](./docs/screenshot.png)
 
 ## 特性
 
