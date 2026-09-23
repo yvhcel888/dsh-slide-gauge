@@ -1,0 +1,6 @@
+# dsh-slide-gauge bundle patch
+# npm:  dsh plugin --profile web add dsh-slide-gauge
+# github: dsh plugin --profile web add github:yvhcel888/dsh-slide-gauge
+- insert:
+    - id: dsh-slide-gauge
+      name: dsh-slide-gauge

@@ -1,0 +1,52 @@
+{
+  "name": "dsh-slide-gauge",
+  "version": "0.1.0",
+  "description": "DSH 滑动测量仪挂件：右下角拖动角色在测量仪上滑动，按位置显示状态（梁神/梁圣/梁子/牢梁），拖到边界出现鲸鱼娘，并记住上次位置",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "widget",
+    "slide-gauge",
+    "cordis",
+    "plugin"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "assets",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "yvhcel888",
+    "email": "739935582@qq.com"
+  },
+  "homepage": "https://github.com/yvhcel888/dsh-slide-gauge#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yvhcel888/dsh-slide-gauge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yvhcel888/dsh-slide-gauge/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "engines": {
+    "node": ">=22.6"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
