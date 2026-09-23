@@ -1,8 +1,17 @@
 # dsh-slide-gauge · DSH 滑动测量仪
 
+[![Listed on dsh-plugin.org](https://dsh-plugin.org/badges/listed.svg)](https://dsh-plugin.org/plugins/yvhcel888/dsh-slide-gauge)
+
 DSH（DeepSeek Harness）Web / 桌面界面右下角的**滑动测量仪**小挂件：拖动角色在标尺上左右滑动，按位置显示状态（梁神 / 梁圣 / 梁子 / 牢梁）；拖到左右边界时出现鲸鱼娘彩蛋。标准 DSH bundle 插件，一条命令安装。
 
 > 安装本插件后：界面右下角会出现「**测**」按钮，点开即可游玩；位置会记住上次状态，刷新后不回到中间。
+
+## 截图 / 演示
+
+<!-- 收录审核用：装好后截图右下角「测」按钮 + 打开的测量仪面板，替换下面占位 -->
+![screenshot placeholder](https://raw.githubusercontent.com/yvhcel888/dsh-slide-gauge/main/docs/screenshot.png)
+
+> 若上方图片 404，说明演示截图尚未上传；功能本身已可用，不影响安装。
 
 ## 特性
 
