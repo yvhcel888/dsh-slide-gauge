@@ -22,14 +22,7 @@ DSH（DeepSeek Harness）Web / 桌面界面右下角的**滑动测梁仪**小挂
 
 ## 安装
 
-> ### ⚠️ npm 暂不可用（24 小时冷却）
->
-> - **原因**：为更新「滑动测梁仪」文案与状态分段修复，已于 **2026-09-24 11:48（北京时间）** 对旧包 `dsh-slide-gauge@0.1.0` 执行 `npm unpublish`。npm 规定**同名包删除后 24 小时内禁止重新发布**，期间 `dsh plugin … add dsh-slide-gauge` 会 404。
-> - **可重新发布**：约 **2026-09-25 11:48（北京时间）/ 2026-09-25 03:48 UTC** 之后。
-> - **计划版本**：`0.1.1`（含滑动测梁仪命名、状态边界修复）。
-> - **请先用方式 B（GitHub）安装**，npm 恢复后再改用方式 A 亦可。
-
-### 方式 A：npm（冷却结束后可用）
+### 方式 A：npm（推荐）
 
 ```bash
 dsh plugin --profile web add dsh-slide-gauge
@@ -37,9 +30,7 @@ dsh plugin --profile web add dsh-slide-gauge
 dsh plugin --profile desktop add dsh-slide-gauge
 ```
 
-> 当前处于上述 24 小时冷却期，此命令可能失败；请改用方式 B。
-
-### 方式 B：GitHub（现在可用）
+### 方式 B：GitHub
 
 ```bash
 dsh plugin --profile web add github:yvhcel888/dsh-slide-gauge
